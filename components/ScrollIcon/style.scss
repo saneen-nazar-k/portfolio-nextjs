@@ -1,0 +1,35 @@
+
+@keyframes pulse {
+    0% {
+      transform: translateY(0%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+  }
+
+.home-content-scroll-icon {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    transition: ease-in 0.5s;
+    transition-property: all;
+    animation: pulse 1s infinite;
+}
+
+.home-content-scroll-icon:hover {
+    margin-top: 3rem;
+    transition: ease-in 0.5s;
+    transition-property: all;
+}
+
+.home-content-subtext {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 3rem;
+}

@@ -1,0 +1,23 @@
+.navbar-position {
+  // margin-top: 2rem;
+  // margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  left: 50%;
+  z-index: 10;
+  padding-top: 1rem;
+
+  .nav-item-link {
+    color: #ffffff;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    white-space: nowrap;
+  }
+
+  .nav-item-link:hover {
+    color: red;
+  }
+}
